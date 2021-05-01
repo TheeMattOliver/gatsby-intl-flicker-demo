@@ -26,6 +26,9 @@ export default function HeaderNew(siteTitle) {
               <Link to="/contact" className="text-base pt-4 font-medium text-gray-500 hover:text-gray-900">
                 Contact
               </Link>
+              <Link to="/page-3" className="text-base pt-4 font-medium text-gray-500 hover:text-gray-900">
+                Page 3
+              </Link>
 
               <LanguageToggleList />
             </nav>
