@@ -7,6 +7,7 @@ import Header from "./Header"
 
 const MainWrap = styled.div`
   background-color: var(--color-background);
+  padding-left: 16px;
 `;
 
 const Layout = ({ children }) => {
