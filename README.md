@@ -7,7 +7,19 @@
 
 **Static image flickers.**
 
-Watch the logo png in the Header. Using ` Open to ideas for how to fix this.
+Watch the logo png in the Header. Open to ideas for how to fix this. Here's `/src/components/Logo.js`:
+
+```
+export function Logo() {
+  return (
+    <StaticImage
+      src="../assets/images/logo.png"
+      loading="eager"
+      alt="Logo"
+      placeholder="blurred" />
+  );
+}
+```
 
 **Pages flicker as `gatsby-plugin-intl` pushes the locale path onto the route.**
 
