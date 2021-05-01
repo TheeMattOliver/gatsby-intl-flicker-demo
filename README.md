@@ -7,11 +7,18 @@
 
 Go try it out and propose a better strategy for pushing locales onto routes, please.
 
-## What's a better strategy to push locales on to the url path without making network requests as `gatsby-plugin-intl` pushes the locale path onto the route?
+## To prevent network requests as `gatsby-plugin-intl` pushes the locale path onto the route, use the version of `Link` it comes bundled with.
 
-Open to ideas for better locale routing strategies to avoid having to make network requests to push the locale onto the route, or if it has to be this way, open to strategies for how to improve user experience.
+Pushing the locale onto the route forces a network request, which defeats the purpose of using Gatsby in the first place. The fix is to use the version of `Link` that `gatsby-plugin-intl` comes bundled with.
+
+Before, using Gatsby `Link`:
 
 ![Page flickers as locales pushed onto routes.](https://media.giphy.com/media/6wVDjk6aBBjiAS3gkX/giphy.gif)
+
+After, using `gatsby-plugin-intl` bundled `Link`:
+
+![No network request as locale pushed onto routes.](https://media.giphy.com/media/6wVDjk6aBBjiAS3gkX/giphy.gif)
+
 
 ## Using Static Image with `gatsby-plugin-image` flickers.
 
