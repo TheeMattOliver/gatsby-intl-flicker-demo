@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Intl Page Flicker demo`,
+    title: `Gatsby Intl Page Flicker!`,
     description: `Gatsby Intl Page Flicker demo`,
     author: `Matt Oliver`,
     siteUrl: `https://github.com/theemattoliver`

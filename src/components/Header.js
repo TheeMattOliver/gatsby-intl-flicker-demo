@@ -18,12 +18,12 @@ export default function HeaderNew(siteTitle) {
                 className="inline object-cover w-16 h-16 mr-2 rounded-sm"
                 alt="Placeholder logo" />
             </Link>
-
+            <p className="text-base pr-6 pt-1 font-medium text-gray-500 hover:text-gray-900">{title}</p>
             <nav className="hidden md:flex space-x-10">
-              <Link to="/about" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <Link to="/about" className="text-base pt-4 font-medium text-gray-500 hover:text-gray-900">
                 About
               </Link>
-              <Link to="/contact" className="text-base font-medium text-gray-500 hover:text-gray-900">
+              <Link to="/contact" className="text-base pt-4 font-medium text-gray-500 hover:text-gray-900">
                 Contact
               </Link>
 

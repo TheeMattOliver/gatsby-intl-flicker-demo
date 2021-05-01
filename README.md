@@ -1,15 +1,15 @@
 <!-- START -->
 <h1 align="center">
-  Demoing some page flicker with Gatsby, `gatsby-plugin-intl`, Tailwind, and some SSR stuff.
+  Demoing page flicker with Gatsby & `gatsby-plugin-intl` as locale is pushed onto route.
 </h1>
 
 ## Here's what's going on
 
-1.  **Static image flickers.**
+**Static image flickers.**
 
-Watch the dummy logo png in the Header. Open to ideas for how to fix this.
+Watch the logo png in the Header. Using ` Open to ideas for how to fix this.
 
-1.  **Pages flicker as `gatsby-plugin-intl` pushes the locale path onto the route.**
+**Pages flicker as `gatsby-plugin-intl` pushes the locale path onto the route.**
 
 Open to ideas for how to fix this.
 
