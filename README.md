@@ -1,6 +1,6 @@
 <!-- START -->
 <h1 align="center">
-  Demoing page flicker with Gatsby & `gatsby-plugin-intl` as locale is pushed onto route.
+  Demoing page flicker with `gatsby-plugin-image` using `StaticImage` & `gatsby-plugin-intl` as locale is pushed onto route.
 </h1>
 
 ## Site here ##
