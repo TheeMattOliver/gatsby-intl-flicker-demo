@@ -3,13 +3,11 @@
   Demoing page flicker with `gatsby-plugin-image` using `StaticImage` & `gatsby-plugin-intl` as locale is pushed onto route.
 </h1>
 
-## Site is [here](https://gracious-mestorf-268e1b.netlify.app/en/) ##
+## Site is [here](https://gracious-mestorf-268e1b.netlify.app/en/). ##
 
 Go try it out and propose a better strategy for pushing locales onto routes, please.
 
-## Here's what's going on
-
-**Using Static Image with `gatsby-plugin-image` flickers.**
+## Using Static Image with `gatsby-plugin-image` flickers.
 
 This is unrelated to the locale routes issue but included anyway. Watch the logo png in the Header. Open to ideas for how to fix this. 
 
@@ -29,7 +27,7 @@ export function Logo() {
 }
 ```
 
-**What's a better strategy to push locales on to the url path without making network requests as `gatsby-plugin-intl` pushes the locale path onto the route?**
+## What's a better strategy to push locales on to the url path without making network requests as `gatsby-plugin-intl` pushes the locale path onto the route?
 
 Open to ideas for better locale routing strategies to avoid having to make network requests to push the locale onto the route, or if it has to be this way, open to strategies for how to improve user experience.
 
