@@ -17,7 +17,7 @@ Before, using Gatsby `Link`:
 
 After, using `gatsby-plugin-intl` bundled `Link`:
 
-![No network request as locale pushed onto routes.](https://media.giphy.com/media/6wVDjk6aBBjiAS3gkX/giphy.gif)
+![No network request as locale pushed onto routes.](https://media.giphy.com/media/gf1mhMlU7IRSuchxtb/giphy.gif)
 
 
 ## Using Static Image with `gatsby-plugin-image` flickers.

@@ -1,13 +1,12 @@
 /* This example requires Tailwind CSS v2.0+ */
-import React, { Fragment } from 'react'
-import { useIntl, Link } from 'gatsby-plugin-intl'
+import React from 'react'
+import { Link } from 'gatsby-plugin-intl'
 
 import { Logo } from "./Logo"
 import LanguageToggleList from './LanguageToggleList'
 
 export default function HeaderNew(siteTitle) {
   const { title } = siteTitle
-  const { locale } = useIntl();
 
   return (
     <>
