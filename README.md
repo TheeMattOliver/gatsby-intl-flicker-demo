@@ -3,16 +3,19 @@
   Demoing page flicker with `gatsby-plugin-image` using `StaticImage` & `gatsby-plugin-intl` as locale is pushed onto route.
 </h1>
 
-## Site here ##
+## Site is [here](https://gracious-mestorf-268e1b.netlify.app/en/) ##
 
-![Pages flicker as locale pushed onto routes](https://media.giphy.com/media/Y7CdS5vPTJ7Codxn2x/giphy.gif)
-
+Go try it out and propose a better strategy for pushing locales onto routes, please.
 
 ## Here's what's going on
 
 **Static image flickers.**
 
-This is unrelated to the locale routes issue but included anyway. Watch the logo png in the Header. Open to ideas for how to fix this. Here's `/src/components/Logo.js`:
+This is unrelated to the locale routes issue but included anyway. Watch the logo png in the Header. Open to ideas for how to fix this. 
+
+![Img flickers](https://media.giphy.com/media/Y7CdS5vPTJ7Codxn2x/giphy.gif)
+
+Here's `/src/components/Logo.js`:
 
 ```
 export function Logo() {
