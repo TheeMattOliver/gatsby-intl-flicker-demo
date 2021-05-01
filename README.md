@@ -9,7 +9,7 @@ Go try it out and propose a better strategy for pushing locales onto routes, ple
 
 ## Here's what's going on
 
-**Static image flickers.**
+**Using Static Image with `gatsby-plugin-image` flickers.**
 
 This is unrelated to the locale routes issue but included anyway. Watch the logo png in the Header. Open to ideas for how to fix this. 
 
@@ -29,9 +29,12 @@ export function Logo() {
 }
 ```
 
-**Pages flicker since we are making network requests as `gatsby-plugin-intl` pushes the locale path onto the route.**
+**What's a better strategy to push locales on to the url path without making network requests as `gatsby-plugin-intl` pushes the locale path onto the route?**
 
 Open to ideas for better locale routing strategies to avoid having to make network requests to push the locale onto the route, or if it has to be this way, open to strategies for how to improve user experience.
+
+![Page flickers as locales pushed onto routes.](https://media.giphy.com/media/6wVDjk6aBBjiAS3gkX/giphy.gif)
+
 
 **How to work this.**
 
