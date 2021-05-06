@@ -7,7 +7,7 @@ import Header from "./Header"
 
 const MainWrap = styled.div`
   background-color: var(--color-background);
-  padding-left: 16px;
+  // padding-left: 16px;
 `;
 
 const Layout = ({ children }) => {
@@ -23,6 +23,10 @@ const Layout = ({ children }) => {
     }
   `)
 
+  if (typeof window !== "undefined") {
+    // eslint-disable-next-line global-require
+    require("smooth-scroll")('a[href*="#"]')
+  }
   return (
     <>
       <Header title={data.site.siteMetadata.title} />
