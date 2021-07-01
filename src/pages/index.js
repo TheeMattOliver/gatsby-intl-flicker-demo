@@ -2,6 +2,7 @@ import React from "react"
 import { FormattedMessage } from "gatsby-plugin-intl"
 import Layout from "../components/Layout"
 import BigTitle from "../components/BigTitle"
+import SEO from "../components/SEO"
 
 
 export default function Home() {
