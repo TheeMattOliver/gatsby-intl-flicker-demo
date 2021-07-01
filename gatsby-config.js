@@ -3,7 +3,10 @@ module.exports = {
     title: `Gatsby Intl Page Flicker!`,
     description: `Gatsby Intl Page Flicker demo`,
     author: `Matt Oliver`,
-    siteUrl: `https://github.com/theemattoliver`
+    url: `https://gracious-mestorf-268e1b.netlify.app`,
+    twitterUsername: `@Testing`,
+    image: "/home.png",
+    author: "Author"
   },
   plugins: [
     {

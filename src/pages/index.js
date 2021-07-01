@@ -11,7 +11,6 @@ export default function Home() {
         <BigTitle>
           <FormattedMessage id="home_title" />
         </BigTitle>
-
       </Layout>
     </>
   );

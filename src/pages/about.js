@@ -14,7 +14,8 @@ export default function About() {
   return (
     <>
       <SEO
-        title={`About - Gatsby Intl Flicker Demo`}>
+        title={`About - Gatsby Intl Flicker Demo`}
+        image={`./about.png`}>
       </SEO>
       <Layout>
         <BigTitle>
