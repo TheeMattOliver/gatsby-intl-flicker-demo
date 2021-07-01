@@ -54,7 +54,7 @@ const SEO = ({ title, description, image, article }) => {
 
       {seo.image && <meta name="twitter:image" content={seo.image} />}
 
-      <meta name="facebook-domain-verification" content="ywx96r8keqk3hmmc4m6hm0ju15570u" />    </Helmet>
+    </Helmet>
   )
 }
 

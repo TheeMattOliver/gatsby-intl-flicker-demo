@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Intl Page Flicker!`,
     description: `Gatsby Intl Page Flicker demo`,
-    author: `Matt Oliver`,
+    author: ``,
     url: `https://gracious-mestorf-268e1b.netlify.app`,
     twitterUsername: `@Testing`,
     image: "/home.png",

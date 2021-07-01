@@ -7,6 +7,9 @@ import BigTitle from "../components/BigTitle"
 export default function Home() {
   return (
     <>
+      <SEO
+        title={`Home`}>
+      </SEO>
       <Layout>
         <BigTitle>
           <FormattedMessage id="home_title" />
